@@ -1,7 +1,7 @@
 # In-Network Aggregation Protocol
 
 We have implemented a simple in-network aggregation protocol that primarily functions on a request/response content request mechanism. It aggregates content produced by producers at the aggregator level and then allows consumers to retrieve and average the data. In the protocol, the aggregator divides the peer network into multiple domains, significantly enhancing content aggregation efficiency through a hierarchical aggregation mechanism.
-
+Put the innetwork-task, application and quic files to the ns3.37/src, scratch to ns3.37/ to run the test.
 
 ## Implemented Methods
 
